@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+    background-color: #2f2d2d;
+    padding: 25px;
+}
+
+#navbar a{
+    color: white;
+    margin: 0 20px;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#navbar a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+/* About Section */
+#about_section{
+    text-align: center;
+}
+
+#about_section{
+    background: url("./images/background_image.jpg") no-repeat center center/cover;
+    height: 70vh;
+    opacity: 0.85;
+}
+
+#about_section #intro1{
+    color: white;
+    padding: 5px 0;
+}
+
+#about_section #intro1 h1{
+    font-size: 50px;
+    padding: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-shadow: 4px 6px black;
+}
+
+#about_section #intro1 p{
+    font: bold 32px 'Baloo Bhai 2', cursive;
+    color: red;
+    padding: 20px 150px;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Video Section */
+#video_section{
+    background: url("./images/video_section.jpg") no-repeat center center/cover;
+    height: 60%;
+    opacity: 0.9;
+    text-align: center;
+    padding: 35px 0;
+}
+
+#video_section h3{
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.video_div{
+    margin: 20px 0;
+}
+
+.video_div h4{
+    padding: 25px 425px;
+    padding-bottom: 0;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
+
+/* Trending Section */
+#trending_section{
+    background: url("./images/trending_section.jpg") no-repeat center center/cover;
+    height: 75vh;
+    opacity: 0.85;
+    text-align: center;
+    padding: 35px 0;
+}
+
+#trending_section h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    margin: 25px 0;
+}
+
+table{
+    width: 70%;
+    padding: 15px 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+th{
+    height: 70px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 28px;
+}
+
+td{
+    font: bold 20px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tr{
+    height: 50px;
+}
+
+tr a{
+    text-decoration: none;
+    color: black;
+}
+  
+tr a:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(0, 225, 255);
+    border-radius: 8px;
+}
+
+
+/* Contact Section */
+#contact_section{
+    background: url("./images/contact_section.jpg") no-repeat center center/cover;
+    text-align: center;
+    height: 40vh;
+}
+
+#contact_section h3{
+    font: 38px 'Fredoka One';
+    text-shadow: 2px 2px rgb(250, 135, 135);
+    padding: 25px 5px;
+    margin-left: 45px;
+}
+
+#contact_section ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#contact_form a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#contact_form a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Footer Section */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    padding-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
